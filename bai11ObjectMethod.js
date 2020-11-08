@@ -13,4 +13,8 @@ var mouse = {
     weight: 0.5,
     height: 0.2,
 }
-myCat.weight
+
+console.log('myCat Weight & Height:',myCat.weight,myCat.height);
+
+myCat.eat(mouse);
+console.log('myCat Weight after eating Mouse',myCat.weight,myCat.height);
